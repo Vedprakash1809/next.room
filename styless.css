@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+.icons {
+    position: absolute;
+    height: 50px; /* Replace with actual value */
+    width: 50px; /* Replace with actual value */
+  }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%; /* Takes full width of the screen */
+    max-width: 100%; /* Ensure it doesn't get restricted by a max-width */
+    margin: 0 auto; /* Center the container */
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Increases the space between the input elements */
+    width: 100%;
+    justify-content: space-between; /* Space between form fields */
+    align-items: center;
+}
+
+input, select {
+    padding: 10px;
+    border: 2px solid #5F8FA4;
+    border-radius: 50px;
+    background: #B1BEC6;
+    font-size: 14px;
+    color: #555;
+    width: 130px; /* Adjust the width to a sufficient size for displaying text */
+    min-width: 80px; /* Ensures a minimum width to accommodate longer text */
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #43b3e7;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+
+.hotel, .hotel-detail, .booking {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+label {
+    margin-bottom: 5px;
+    color: #97b2bd;
+    font-weight: bold;
+  }
+  
+#search {
+    padding-left: 40px;
+    background: url('searchicon.png') no-repeat 10px center;
+    background-size: 20px;
+  }
+  
+#microphone {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    height: 40px; /* Increased height */
+    width: 40px;  /* Increased width for visibility */
+    background: #FF5252;
+    border-radius: 50%; /* Makes the icon a circle */
+    cursor: pointer;
+    transition: background 0.3s ease;
+    position: relative; /* Allows better control over positioning */
+    background-image: url('microphone-icon.png'); /* Add your microphone icon URL here */
+    background-size: 60%; /* Adjust size of icon inside the button */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#microphone:hover {
+    background-color: #FF7675; /* Lighten background color on hover */
+}
+/* styless.css  for hotel*/
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #35424a;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav {
+    margin: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    text-align: right;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hotel Details Section */
+section h2 {
+    font-size: 22px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hotel-detail, .hotel-rooms, .hotel-flats {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hotel-detail img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.hotel-detail h3 {
+    font-size: 24px;
+    margin: 15px 0;
+    color: #35424a;
+}
+
+.hotel-detail p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Room and Flat Styles */
+#rooms-section .room, #flats-section .flat {
+    margin-bottom: 20px;
+}
+
+.room, .flat {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.room h3, .flat h3 {
+    color: #35424a;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.room p, .flat p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.book-now {
+    background-color: #35424a;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.book-now:hover {
+    background-color: #45a049;
+    text-decoration: none;
+}
+
+.book-now i {
+    margin-right: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #35424a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+/*----------------------------------------*/
